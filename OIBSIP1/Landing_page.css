@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h5{
+    color: aliceblue;
+    text-align: left;
+    padding-top: 200px;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+h1{
+    color: aliceblue;
+    text-align: left;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 0px;
+}
+#ch{
+    content: '';
+    color: skyblue;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt;
+}
+#chan{
+    content: '';
+    color: #ffa500;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt;
+}
+.full-page{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(indore.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.navbar{
+    display: flex;
+    align-items: top;
+    padding: 2px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 2px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+nav ul li button{
+    font-size: 20px;
+    color:white;
+    outline: none;
+    border: none;
+    background:transparent;
+    cursor: pointer;
+    font-family: sans-serif; 
+}
+nav ul li button:hover{
+    color:aqua;
+}
+nav ul li a:hover{
+    color:aqua;
+}
+.contain{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+.text{
+    padding-top: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#tpc{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.card-title{
+    padding: 10px;
+    padding-left: 100px;
+}
+.card-text{
+    padding-left: 100px;
+}
+
+#btn2 button{
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn button:hover{
+    background-color: rgba(238,224,208);
+}
